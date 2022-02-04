@@ -3,31 +3,33 @@
 
 
 # Class Name Validate and Convert
-Package with utilities for the convert and validate class for css
+Package with utilities for the convert number to price format
 
 ## Installation
 
 Use the npm to install
 ```bash
-npm install @brainylab/classname
+npm install @brainylab/numbers-utils
 ```
 
 Or use the yarn to install
 
 ```bash
-yarn add @brainylab/classname
+yarn add @brainylab/numbers-utils
 ```
 
 ## Usage
 
 ```javascript
-import { className } from '@brainylab/classname'
+import { priceFormat } from '@brainylab/numbers-utils';
 
-const classNameConverted = className('class', {class2: true, class3: false})
+const number = 500;
 
-console.log(classNameConverted)
+const priceConverted = priceFormat(number)
 
-// return string 'class class2'
+console.log(priceConverted)
+
+// return string 'R$ 500,00'
 ```
 
 ## License

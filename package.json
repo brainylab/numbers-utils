@@ -2,7 +2,7 @@
   "name": "@brainylab/numbers-utils",
   "version": "0.0.2",
   "author": "BrainyLab Developer <dev@brainylab.com.br>",
-  "description": "numbers utils",
+  "description": "Numbers Utils",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.js",
@@ -20,17 +20,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brainylab/classnames"
+    "url": "git+https://github.com/brainylab/numbers-utils"
   },
   "bugs": {
-    "url": "https://github.com/brainylab/classnames/issues"
+    "url": "https://github.com/brainylab/numbers-utils/issues"
   },
-  "homepage": "https://github.com/brainylab/classnames#readme",
+  "homepage": "https://github.com/brainylab/numbers-utils#readme",
   "keywords": [
-    "classname",
-    "classnames",
-    "class",
-    "css",
+    "numbers-utils",
+    "numbers",
+    "price",
     "javascript",
     "typescript"
   ],
